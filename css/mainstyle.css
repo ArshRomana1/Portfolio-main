@@ -307,9 +307,11 @@ b, strong {
 .dark-mode .owl-carousel .owl-nav button.owl-next,
 .dark-mode .owl-carousel .owl-nav button.owl-prev,
 .dark-mode .owl-carousel button.owl-dot {
-  color: #ffffff;
+  color: #6a6969;
 }
-
+.dark-mode .owl-theme .owl-nav [class*=owl-]:hover {
+  color: #ffc200;
+}
 .timeline-wrapper {
   position: relative;
   padding: 22px 0;
@@ -423,6 +425,8 @@ b, strong {
 }
 .contact-form .form-control:hover, .contact-form .form-control:focus {
   border-color: #ffc200;
+  border-radius: 30px;
+  box-shadow: 0 0 10px 4px #ffc200;
 }
 .contact-form .submit-btn {
   background: #ffc200;
